@@ -5,8 +5,8 @@ import React from 'react'
 export default async function Posts() {
 
   const posts = await getAllPosts();
-  console.log(posts);
-
+  
+  
   return (
     <div className='mt-6'>
       <h1>All Posts</h1>
